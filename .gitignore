@@ -14,3 +14,12 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+
+#Avoid .map CSS file
+*.css.map
+
+#Avoid Design Files
+design/
+
+#Avoid Style Guide
+style-guide.md

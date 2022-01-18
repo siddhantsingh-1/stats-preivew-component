@@ -1,6 +1,6 @@
 @include media-lg {
     .main__card {
-        width: 800px;
+        width: 1040px;
         display: grid;
         grid-template: auto / 1fr 1fr;
 
@@ -24,25 +24,27 @@
 
             h1 {
                 width: 80%;
-                margin-top: 3rem;
-                font-size: 1.5rem;
+                margin-top: 3.6rem;
+                font-size: 1.9rem;
             }
 
             p {
-                margin-top: 1rem;
-                width: 80%;
+                margin-top: 1.3rem;
+                font-size: 0.9rem;
+                width: 85%;
             }
 
             &__stats {
                 flex-direction: row;
                 justify-content: flex-start;
                 margin-top: -0.3rem;
+                padding: 0;
 
                 .stat-item {
                     margin-right: 3rem;
 
                     h1 {
-                        font-size: 1rem;
+                        font-size: 1.3rem;
                     }
                 }
             }

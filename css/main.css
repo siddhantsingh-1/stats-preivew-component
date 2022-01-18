@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
 .main__card {
   background-color: #1b1938;
-  width: 85vw;
+  width: 318.75px;
   height: 80vh;
   margin: 0 auto;
   border-radius: 2%;
@@ -9,6 +9,7 @@
 
 .main__card .banner {
   width: 100%;
+  height: 30%;
   position: relative;
 }
 
@@ -20,7 +21,7 @@
 .main__card .banner::after {
   content: '';
   width: 100%;
-  height: 99%;
+  height: 97.7%;
   background-color: #aa5cdb;
   opacity: 0.6;
   border-radius: 3% 3% 0 0;
@@ -28,6 +29,52 @@
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.main__card .content {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main__card .content h1 {
+  width: 100%;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+
+.main__card .content h1 span {
+  color: #aa5cdb;
+}
+
+.main__card .content p {
+  line-height: 1.7rem;
+  margin-top: 1rem;
+}
+
+.main__card .content__stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 33%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main__card .content__stats h1 {
+  font-size: 1.3rem;
+}
+
+.main__card .content__stats h6 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: 'Lexend Deca', sans-serif;
+  margin-top: 0.2rem;
 }
 
 * {
@@ -47,7 +94,8 @@ h1 {
   font-weight: 700;
 }
 
-p {
+p,
+h6 {
   color: rgba(255, 255, 255, 0.75);
 }
 
